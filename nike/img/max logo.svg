@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144.769 38.701">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fb2632;
+      }
+
+      .cls-2 {
+        fill: #fff;
+        font-size: 20px;
+        font-family: Montserrat-Bold, Montserrat;
+        font-weight: 700;
+      }
+    </style>
+  </defs>
+  <g id="Group_9" data-name="Group 9" transform="translate(-1001 -245.259)">
+    <rect id="Rectangle_1" data-name="Rectangle 1" class="cls-1" width="144.769" height="38.701" rx="19.35" transform="translate(1001 245.259)"/>
+    <text id="AIRMAX" class="cls-2" transform="translate(1031.241 271.191)"><tspan x="0" y="0">AIRMAX</tspan></text>
+  </g>
+</svg>

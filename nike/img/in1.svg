@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24.813 24.813">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #2d3041;
+      }
+
+      .cls-2 {
+        fill: #fff;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <g id="Group_3" data-name="Group 3" transform="translate(-1246.539 -30.187)">
+    <ellipse id="Oval-1-Copy-5" class="cls-1" cx="12.406" cy="12.406" rx="12.406" ry="12.406" transform="translate(1246.539 30.187)"/>
+    <path id="Fill-182" class="cls-2" d="M18.547,20.824A1.418,1.418,0,1,0,17,19.413a1.483,1.483,0,0,0,1.547,1.411" transform="translate(1235.564 18.568)"/>
+    <path id="Fill-183" class="cls-2" d="M18,37h2.775V29H18Z" transform="translate(1234.919 11.467)"/>
+    <path id="Fill-184" class="cls-2" d="M31.77,31.906c0-.918.434-1.815,1.472-1.815s1.294.9,1.294,1.793v4.371H37.3v-4.55C37.3,28.545,35.43,28,34.281,28a2.809,2.809,0,0,0-2.511,1.33V28.252H29v8h2.77Z" transform="translate(1227.818 12.112)"/>
+  </g>
+</svg>

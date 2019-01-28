@@ -1,0 +1,451 @@
+/*default reset for al ancor tags*/
+*a {
+  outline: inherit;
+  text-decoration: none;
+}
+*a:hover {
+  outline: inherit;
+  text-decoration: none;
+}
+*a:active {
+  outline: inherit;
+  text-decoration: none;
+}
+
+/*Design for mobile and tabs*/
+@media screen and (max-width: 768px){
+  /*sets background color of image to green (linear to a little touch of teal)*/
+  .img{
+    width: 100%;
+    height: 300px;
+    background-image: linear-gradient(rgba(195,230,208,0.342), rgba(29,207,53,0.753)), url("../images/bag.jpg") !important;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  /*sets first image text and it's opacity*/
+  .img .card-img-overlay .text1{
+    color: rgba(255,255,255,0.8);
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+    margin-top: 60px;
+  }
+  /*sets second image text and it's opacity*/
+  .img .card-img-overlay .text2{
+    color:rgba(255,255,255,0.9);
+    text-align: center;
+    letter-spacing: 1px;
+  }
+  /*Ajusts option to fitted position*/
+  .options{
+    margin-top:40px;
+  }
+  /*sets the School Log In text*/
+  .options .school{
+    color: rgba(0,0,0,0.6);
+    text-align: center;
+    font-weight: bold;
+  }
+  /*sets form table's border and width*/
+  .options table{
+    border: 1px solid rgba(0,0,0,0.1);
+    width: 100%;
+  }
+  /*sets all form button*/
+  .options a{
+    color: rgba(29,207,53,0.753);
+    background-color: #fff;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-align: center;
+    border: none;
+    width: 141px;
+    padding: 10px;
+    cursor: pointer;
+  }
+  /*sets hover efect for button hovver*/
+  .options a:hover{
+    color: rgba(0,0,0,0.753);
+    background-color: #f1f1f1;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-align: center;
+    border: none;
+    width: 141px;
+    padding: 10px;
+    cursor: pointer;
+  }
+  /*Default style for option form input*/
+  .options input{
+    width: 80%;
+    padding: 5px;
+    padding-left: 35px;
+    padding-right: 35px;
+    overflow: hidden;
+    color: rgba(0,0,0,0.6);
+    letter-spacing: 1px;
+    transition: 0.3s ease-in-out;
+  }
+  /*Ajusts eye into password and password confirmation*/
+  .options .fa-eye{
+    position: absolute;
+    margin-left: -30px;
+  }
+  /*specificallt sets style for submit button*/
+  .options input[type="submit"]{
+    background-color: rgba(100,205,80,0.9);
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 13px;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    margin-bottom: 50px;
+    cursor: pointer;
+  }
+  /*specificallt sets style for the login submit button*/
+  .options input[type="submit"]{
+    background-color: rgba(100,205,80,0.9);
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 13px;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+  }
+  /*sets position and styling of select tag*/
+  .options .input-group select{
+    position: absolute;
+    margin-left: 30px;
+    margin-top: 2px;
+    color: rgba(0,0,0,0.6);
+    padding: 1px;
+  }
+  /*Ajusts mobile number input field*/
+  .options .input-group input{
+    margin-left: 30px;
+    padding-left: 86px;
+  }
+  /*sets position of all fontawesome icons in input fields*/
+  .options i{
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 10px;
+    color: rgba(0,0,0,0.6);
+  }
+  /*sets horrizontal rule with*/
+  .options hr{
+    width: 80%;
+  }
+  /*sets additional login option hint text*/
+  .login-with{
+    color: rgba(0,0,0,0.6);
+    font-size: 10px;
+    font-weight: bold;
+    letter-spacing: 1px;
+  }
+  /*sets facebook button position ans color styling*/
+  .options .facebook{
+    width: 80%;
+    padding: 10px;
+    padding-left: 35px;
+    overflow: hidden;
+    color: rgb(255,255,255);
+    font-weight: bold;
+    font-size: 13px;
+    letter-spacing: 1px;
+    transition: 0.3s ease-in-out;
+    background-color: rgb(0, 57, 230);
+    border: none;
+    border-radius: 5px;
+  }
+  /*sets facebook hover efect*/
+  .options .facebook:hover{
+    width: 80%;
+    padding: 10px;
+    padding-left: 35px;
+    overflow: hidden;
+    color: rgb(255,255,255);
+    font-weight: bold;
+    font-size: 13px;
+    letter-spacing: 1px;
+    transition: 0.3s ease-in-out;
+    background-color: rgb(0, 45, 179);
+    border: none;
+    border-radius: 5px;
+  }
+  /*sets facebook button position ans color styling*/
+  .options .google{
+    width: 80%;
+    padding: 10px;
+    padding-left: 35px;
+    overflow: hidden;
+    color: rgb(255,255,255);
+    font-weight: bold;
+    font-size: 13px;
+    letter-spacing: 1px;
+    transition: 0.3s ease-in-out;
+    background-color: rgb(255, 92, 51);
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  /*sets facebook hover efect*/
+  .options .google:hover
+  {
+    width: 80%;
+    padding: 10px;
+    padding-left: 35px;
+    overflow: hidden;
+    color: rgb(255,255,255);
+    font-weight: bold;
+    font-size: 13px;
+    letter-spacing: 1px;
+    transition: 0.3s ease-in-out;
+    background-color: rgb(230, 46, 0);
+    border: none;
+    border-radius: 5px;
+  }
+  /*sets facebook and google fontawesome icon position*/
+  .options .fab{
+    position: absolute;
+    margin-left: 80px;
+    margin-top: 8px;
+    color: rgb(255,255,255);
+  }
+}
+
+
+
+
+
+
+/*Design for laptops and larger screens*/
+@media screen and (min-width: 767.8px){
+  /*sets background color of image to green (linear to a little touch of teal)*/
+  .img{
+    width: 100%;
+    height: 700px;
+    background-image: linear-gradient(rgba(195,230,208,0.342), rgba(29,207,53,0.753)), url("../images/bag.jpg") !important;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  /*sets first image text and it's opacity*/
+  .img .card-img-overlay .text1{
+    color: rgba(255,255,255,0.8);
+    text-align: center;
+    font-weight: bold;
+    font-size: 60px;
+    margin-top: 250px;
+  }
+  /*sets second image text and it's opacity*/
+  .img .card-img-overlay .text2{
+    color:rgba(255,255,255,0.9);
+    text-align: center;
+    letter-spacing: 1px;
+    font-weight: bold;
+    font-size: 13px;
+  }
+  /*Ajusts option to fitted position*/
+  .options{
+    margin-top:120px;
+  }
+  .options2{
+    margin-top:5px;
+  }
+  /*sets the School Log In text*/
+  .options .school{
+    color: rgba(0,0,0,0.6);
+    text-align: center;
+    font-weight: bold;
+  }
+  /*sets form table's border and width*/
+  .options table{
+    border: 1px solid rgba(0,0,0,0.1);
+    width: 70%;
+  }
+  /*sets all form button*/
+  .options a{
+    color: rgba(29,207,53,0.753);
+    background-color: #fff;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-align: center;
+    border: none;
+    width: 183px;
+    padding: 15px;
+    cursor: pointer;
+  }
+  /*sets hover efect for button hovver*/
+  .options a:hover{
+    color: rgba(0,0,0,0.753);
+    background-color: #f1f1f1;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-align: center;
+    border: none;
+    width: 183px;
+    padding: 15px;
+    cursor: pointer;
+  }
+  /*Default style for option form input*/
+  .options input{
+    width: 80%;
+    padding: 5px;
+    padding-left: 35px;
+    padding-right: 35px;
+    overflow: hidden;
+    color: rgba(0,0,0,0.6);
+    letter-spacing: 1px;
+    transition: 0.3s ease-in-out;
+  }
+  /*specificallt sets style for submit button*/
+  .options input[type="submit"]{
+    background-color: rgba(100,205,80,0.9);
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 13px;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    margin-bottom: 80px;
+    cursor: pointer;
+  }
+  /*specificallt sets style for the login submit button*/
+  .options input[type="submit"]{
+    background-color: rgba(100,205,80,0.9);
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 13px;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+  }
+  /*Ajusts eye into password and password confirmation*/
+  .options .fa-eye{
+    position: absolute;
+    margin-left: -30px;
+  }
+  /*sets position and styling of select tag*/
+  .options .input-group select{
+    position: absolute;
+    margin-left: 45px;
+    margin-top: 2px;
+    color: rgba(0,0,0,0.6);
+    padding: 1px;
+  }
+  /*Ajusts mobile number input field*/
+  .options .input-group input{
+    margin-left: 45px;
+    padding-left: 86px;
+  }
+  /*specificallt sets style for the login submit button*/
+  .options .sub1{
+    background-color: rgba(100,205,80,0.9);
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 13px;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    margin-bottom: 70px !important;
+    cursor: pointer;
+  }
+  /*sets position of all fontawesome icons in input fields*/
+  .options i{
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 10px;
+    color: rgba(0,0,0,0.6);
+  }
+  /*sets horrizontal rule with*/
+  .options hr{
+    width: 80%;
+  }
+  /*sets additional login option hint text*/
+  .login-with{
+    color: rgba(0,0,0,0.6);
+    font-size: 10px;
+    font-weight: bold;
+    letter-spacing: 1px;
+  }
+  .signin{
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  /*sets facebook button position ans color styling*/
+  .options .facebook{
+    width: 80%;
+    padding: 10px;
+    padding-left: 35px;
+    overflow: hidden;
+    color: rgb(255,255,255);
+    font-weight: bold;
+    font-size: 13px;
+    letter-spacing: 1px;
+    transition: 0.3s ease-in-out;
+    background-color: rgb(0, 57, 230);
+    border: none;
+    border-radius: 5px;
+  }
+  /*sets facebook hover efect*/
+  .options .facebook:hover{
+    width: 80%;
+    padding: 10px;
+    padding-left: 35px;
+    overflow: hidden;
+    color: rgb(255,255,255);
+    font-weight: bold;
+    font-size: 13px;
+    letter-spacing: 1px;
+    transition: 0.3s ease-in-out;
+    background-color: rgb(0, 45, 179);
+    border: none;
+    border-radius: 5px;
+  }
+  /*sets facebook button position ans color styling*/
+  .options .google{
+    width: 80%;
+    padding: 10px;
+    padding-left: 35px;
+    overflow: hidden;
+    color: rgb(255,255,255);
+    font-weight: bold;
+    font-size: 13px;
+    letter-spacing: 1px;
+    transition: 0.3s ease-in-out;
+    background-color: rgb(255, 92, 51);
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  /*sets facebook hover efect*/
+  .options .google:hover
+  {
+    width: 80%;
+    padding: 10px;
+    padding-left: 35px;
+    overflow: hidden;
+    color: rgb(255,255,255);
+    font-weight: bold;
+    font-size: 13px;
+    letter-spacing: 1px;
+    transition: 0.3s ease-in-out;
+    background-color: rgb(230, 46, 0);
+    border: none;
+    border-radius: 5px;
+  }
+  /*sets facebook and google fontawesome icon position*/
+  .options .fab{
+    position: absolute;
+    margin-left: 105px;
+    margin-top: 8px;
+    color: rgb(255,255,255);
+  }
+}

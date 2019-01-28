@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="main.css">
+  <script src="todo2.js"></script>
+</head>
+<body>
+    <table align="center">
+      <tr>
+        <td align="center">
+          <div class="hero">
+            <div class="container">
+              <h1 class="display-2 text-center">TodoList</h1>
+              
+              <div class="row">
+                <form id="form" class="col-lg-6 col-8 mx-auto">
+                  <div class="input-group">
+                    <input type="text" id="input" class="form-control" placeholder="Enter todo list item"><br><br>
+                    <span>
+                      <button id="btn" type="button" class="btn btn-primary">Submit</button>
+                    </span>
+                  </div>			     
+                </form>
+              </div>			
+              <div class="row">				
+                <ul id="list" class="list col-lg-6 col-8 mx-auto">
+                  <!-- <li>this is a todo item <input type="checkbox" class="checkbox"></li>
+                  <li>this is a todo item <input type="checkbox" class="checkbox"></li> -->
+                </ul>
+              </div>
+              <div class="row">
+                <button id="btnClr" type="button" class="btn btn-primary mx-auto btnHide">Clear</button>
+              </div>				
+            </div>
+          </div>
+        </td>
+      </tr>
+    </table>
+</body>
+</html>

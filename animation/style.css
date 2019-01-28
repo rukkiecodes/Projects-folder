@@ -1,0 +1,190 @@
+/*Checkbox*/
+label{
+  position: relative;
+  left: 100px;
+}
+.check{
+  display: none;
+}
+.btn{
+  display: inline-block;
+  height:60px;
+  width: 120px;
+  background: #333;
+  border-radius: 50px;
+  transition: background 0.5s ease;
+}
+.btn::after{
+  content: "off";
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  top: -40px;
+  text-align: center;
+  line-height: 50px;
+  text-transform: uppercase;
+  left: 65px;
+  color: white;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  transition: left 0.5s ease;
+}
+.btn::before{
+  content: "";
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  background: #aaa;
+  top: -40px;
+  left: 5px;
+  border-radius: 40px;
+  transition: all 0.5s ease;
+}
+.check:checked + .btn{
+  background: #b1b1b1;
+}
+
+.check:checked + .btn::before{
+  background: #0283fc;
+  left: 65px;
+}
+.check:checked + .btn::after{
+  left:5px;
+  content: "on";
+}
+
+/*For loader*/
+.wrapper{
+  border: 2px solid black;
+  height: 50px;
+}
+.progress_bar{
+  background: #01aa01bc;
+  width: 0%;
+  height: 100%;
+  transition: width 10s ease-in;
+}
+
+.wrapper:hover .progress_bar{
+  width: 100%;
+}
+
+/*spin me*/
+.wrapper2{
+  background: #add;
+  padding: 20px;
+}
+
+.wrapper2:hover .container{
+  transform: translateX(1050px) rotate(7200deg);
+}
+
+.container{
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  border: 10px dashed #0d3766;
+  border-radius: 50%;
+  transition: transform 0.10s ease-out;
+}
+.wheel{
+  height: 100%;
+  text-align: center;
+  line-height: 200px;
+  text-transform: uppercase;
+  font-size: 2rem;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+
+
+/*for loging*/
+.slides .state-1{
+  width: 37% !important;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 20px;
+  padding: 40px;
+  background: rgba(0,0,0,0.8);
+  height: 200px;
+  color: #fff;
+  box-shadow: 2px 2px 50px rgba(0,0,0,0.8);
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
+}
+.slides .state-1{
+  position: relative;
+  width: 100%;
+  left: -7px;
+  display: inline-block;
+}
+.state-1 .button{
+  background: rgba(0,0,0,0.8);
+  width: 40%;
+  margin: 0 auto;
+  margin-top: 100px;
+  padding: 20px;
+  transition: 0.3s ease-in-out;
+}
+.state-1 .button:hover{
+  background: rgba(0,0,0,0.8);
+  width: 41%;
+  margin: 0 auto;
+  margin-top: 100px;
+  padding: 20px;
+  transition: 0.3s ease-in-out;
+  box-shadow: 2px 2px 30px rgba(0,0,0,0.8);
+}
+
+
+
+
+
+
+
+
+.slides .state-2{
+  width: 37% !important;
+  float: right;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 20px;
+  padding: 40px;
+  background: rgba(0,0,0,0.8);
+  height: 200px;
+  color: #fff;
+  box-shadow: 2px 2px 50px rgba(0,0,0,0.8);
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
+}
+.slides .state-2{
+  position: relative;
+  width: 100%;
+  left: -7px;
+  display: inline-block;
+}
+.state-2 .button{
+  background: rgba(0,0,0,0.8);
+  width: 40%;
+  margin: 0 auto;
+  margin-top: 100px;
+  padding: 20px;
+  transition: 0.3s ease-in-out;
+}
+.state-2 .button:hover{
+  background: rgba(0,0,0,0.8);
+  width: 41%;
+  margin: 0 auto;
+  margin-top: 100px;
+  padding: 20px;
+  transition: 0.3s ease-in-out;
+  box-shadow: 2px 2px 30px rgba(0,0,0,0.8);
+}
+
+.example .button{
+  background: rgba(0,0,0,0.5);
+  color: rgba(255,255,255,0.8);
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 0 15px 10px -10px rgba(0,0,0,0.5);
+}
